@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Wrangler local state
+.wrangler/
+
+# Environment variables / secrets
+.env
+.dev.vars
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build artifacts
+dist/
